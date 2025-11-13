@@ -1,12 +1,12 @@
-# 🚀 NuvemERP# � NuvemERP
+# 🚀 NuvemERP# 🚀 NuvemERP
 
 
 
-**NuvemERP** es una plataforma de gestión empresarial en la nube que integra clientes, productos y mucho más en un solo lugar. Diseñada para empresas y personas que buscan simplicidad, control y crecimiento, NuvemERP permite administrar tus operaciones comerciales de forma ágil, segura y desde cualquier dispositivo.
+**NuvemERP** es una plataforma de gestión empresarial moderna que integra clientes, productos y cotizaciones en un solo lugar. Diseñada para empresas que buscan simplicidad, control y crecimiento, NuvemERP permite administrar operaciones comerciales de forma ágil y segura.**NuvemERP** es una plataforma de gestión empresarial moderna que integra clientes, productos y cotizaciones en un solo lugar. Diseñada para empresas que buscan simplicidad, control y crecimiento, NuvemERP permite administrar operaciones comerciales de forma ágil y segura.
 
 
 
-> 🌐 **Proyecto en GitHub**: [https://github.com/wpadillav/NuvemERP.git](https://github.com/wpadillav/NuvemERP.git)**NuvemERP** es una plataforma de gestión empresarial en la nube que integra clientes, productos y mucho más en un solo lugar. Diseñada para empresas y personas que buscan simplicidad, control y crecimiento, NuvemERP permite administrar tus operaciones comerciales de forma ágil, segura y desde cualquier dispositivo.
+> 🌐 **Proyecto en GitHub**: [https://github.com/wpadillav/NuvemERP.git](https://github.com/wpadillav/NuvemERP.git)> 🌐 **Proyecto en GitHub**: [https://github.com/wpadillav/NuvemERP.git](https://github.com/wpadillav/NuvemERP.git)
 
 
 
@@ -14,349 +14,699 @@
 
 
 
-## ✨ Características Principales> 🌐 **Proyecto en GitHub**: [https://github.com/wpadillav/NuvemERP.git](https://github.com/wpadillav/NuvemERP.git)
+## ✨ Características Principales---
 
 
 
 ### 🏢 **Gestión Empresarial Integral**
 
-- **Gestión de Clientes** - CRUD completo con información detallada
+- **Gestión de Clientes** - CRUD completo con información detallada de contacto
 
-- **Catálogo de Productos** - Control de inventario y precios## ✨ Características Principales---
+- **Catálogo de Productos** - Control de inventario, precios y SKUs## ✨ Características Principales> 🌐 **Proyecto en GitHub**: [https://github.com/wpadillav/NuvemERP.git](https://github.com/wpadillav/NuvemERP.git)
 
-- **Sistema de Cotizaciones** - Creación, edición y seguimiento de cotizaciones
+- **Sistema de Cotizaciones** - Workflow simplificado: Borrador → Enviada → Entregada
 
-- **Cálculos Automáticos** - IVA, subtotales y totales en tiempo real
+- **Cálculos Automáticos** - IVA opcional, subtotales y totales en tiempo real
 
 - **Búsqueda Inteligente** - Localización rápida de productos por AJAX
 
-### 🔐 **Seguridad Avanzada**### ⚙️ Tecnologías utilizadas
+### 🏢 **Gestión Empresarial Integral**
 
-### 🔐 **Seguridad Empresarial**
+### 🔐 **Seguridad Avanzada**
 
-- **Autenticación Segura** - Sistema de login con protección anti-fuerza bruta- **Cifrado PBKDF2 + SHA-256** con 100,000 iteraciones
+- **Autenticación Segura** - Sistema de login con encriptación robusta- **Gestión de Clientes** - CRUD completo con información detallada
 
 - **Gestión de Sesiones** - Configuración segura con cookies HTTPOnly
 
-- **Validación de Datos** - Sanitización completa de entradas- **Salt único** de 32 bytes por cada contraseña* **PHP 8.3** (`php8.3-fpm`, `php8.3-mysql`, `libapache2-mod-php8.3`)
+- **Validación de Datos** - Sanitización completa de entradas- **Catálogo de Productos** - Control de inventario y precios## ✨ Características Principales---
 
 - **Protección CSRF** - Tokens únicos para formularios críticos
 
-- **Protección contra timing attacks** usando `sodium_memcmp()`* **MariaDB 10.11**
+- **Sistema de Cotizaciones** - Creación, edición y seguimiento de cotizaciones
 
 ### 🎨 **Experiencia de Usuario**
 
-- **Interfaz Responsive** - Bootstrap 5 optimizado para móviles y escritorio- **Prevención de ataques de fuerza bruta** (5 intentos, bloqueo temporal)* **Apache 2.4 con HTTPS (SSL/TLS)**
+- **Interfaz Responsive** - Bootstrap 5 optimizado para móviles y escritorio- **Cálculos Automáticos** - IVA, subtotales y totales en tiempo real
 
-- **Navegación Intuitiva** - Menú contextual y breadcrumbs
+- **Navegación Intuitiva** - Menú contextual y navegación clara
 
-- **Feedback Visual** - Mensajes de éxito/error y confirmaciones- **Protección CSRF** con tokens únicos por sesión* **mod\_security** activado
+- **Feedback Visual** - Mensajes de éxito/error y confirmaciones- **Búsqueda Inteligente** - Localización rápida de productos por AJAX
 
 - **Carga Rápida** - AJAX para operaciones sin recarga de página
 
-- **Configuración segura de sesiones** (HTTPOnly, Secure, SameSite)* **libsodium** (`libsodium-dev`) para cifrado moderno
+### 🔐 **Seguridad Avanzada**### ⚙️ Tecnologías utilizadas
 
 ---
 
-* **Composer** para gestión de dependencias
+### 🔐 **Seguridad Empresarial**
 
 ## ⚙️ Tecnologías Utilizadas
 
-### 👥 **Gestión Completa de Usuarios*** **Bootstrap 5** para la interfaz
+- **Autenticación Segura** - Sistema de login con protección anti-fuerza bruta- **Cifrado PBKDF2 + SHA-256** con 100,000 iteraciones
 
 | Tecnología | Versión | Propósito |
 
-|------------|---------|-----------|- Sistema de **roles y permisos** granular (root, admin, admingrupo, operador)
+|------------|---------|-----------|- **Gestión de Sesiones** - Configuración segura con cookies HTTPOnly
 
 | **PHP** | 8.4+ | Backend y lógica de negocio |
 
-| **MariaDB** | 10.11+ | Base de datos relacional |- **Panel de administración** para gestión de usuarios (solo admin/root)---
+| **MariaDB** | 10.11+ | Base de datos relacional |- **Validación de Datos** - Sanitización completa de entradas- **Salt único** de 32 bytes por cada contraseña* **PHP 8.3** (`php8.3-fpm`, `php8.3-mysql`, `libapache2-mod-php8.3`)
 
 | **Apache** | 2.4 | Servidor web |
 
-| **Bootstrap** | 5.x | Framework CSS responsive |- **Perfil de usuario** con cambio de contraseña personal
+| **Bootstrap** | 5.x | Framework CSS responsive |- **Protección CSRF** - Tokens únicos para formularios críticos
 
 | **jQuery** | 3.x | Biblioteca JavaScript para AJAX |
 
-| **Font Awesome** | 6.x | Iconografía moderna |- **CRUD completo** (Crear, Leer, Actualizar, Eliminar usuarios)### 📁 Estructura del proyecto
+| **Font Awesome** | 6.x | Iconografía moderna |- **Protección contra timing attacks** usando `sodium_memcmp()`* **MariaDB 10.11**
 
 | **Composer** | - | Gestión de dependencias |
 
-- **Validación exhaustiva** de datos de entrada
+### 🎨 **Experiencia de Usuario**
 
 ---
 
-```
+- **Interfaz Responsive** - Bootstrap 5 optimizado para móviles y escritorio- **Prevención de ataques de fuerza bruta** (5 intentos, bloqueo temporal)* **Apache 2.4 con HTTPS (SSL/TLS)**
 
 ## 📁 Estructura del Proyecto
 
-### 🏗️ **Arquitectura MVC**.
+- **Navegación Intuitiva** - Menú contextual y breadcrumbs
 
-```
+### 🏗️ **Arquitectura MVC**
 
-NuvemERP/- **Separación clara** de responsabilidades├── assets/           # Estáticos (CSS, JS, imágenes)
+```- **Feedback Visual** - Mensajes de éxito/error y confirmaciones- **Protección CSRF** con tokens únicos por sesión* **mod\_security** activado
 
-├── 📂 assets/                     # Recursos estáticos
+NuvemERP/
 
-│   ├── css/- **Controladores** especializados por funcionalidad├── config/           # Archivos de configuración (.env, BD, seguridad)
-
-│   │   └── bootstrap.min.css      # Framework CSS
-
-│   ├── img/                       # Imágenes del sistema- **Modelos** con abstracción de base de datos├── controllers/      # Controladores MVC
-
-│   └── js/
-
-│       ├── bootstrap.bundle.min.js # Bootstrap JavaScript- **Vistas** modulares y reutilizables con Bootstrap├── models/           # Lógica de datos, cifrado y usuarios
-
-│       └── jquery.min.js          # jQuery
-
-├── 📂 config/                     # Configuraciones- **Enrutamiento** centralizado y seguro├── views/            # Vistas del sistema
-
-│   ├── database.php               # Configuración de BD
-
-│   └── security.php               # Configuraciones de seguridad├── components/       # Fragmentos reutilizables (navbar, etc.)
-
-├── 📂 controllers/                # Controladores MVC
-
-│   ├── AuthController.php         # Autenticación---├── index.php         # Punto de entrada (Front Controller)
-
-│   ├── ClientController.php       # Gestión de clientes
-
-│   ├── DashboardController.php    # Panel principal├── .env              # Variables de entorno
-
-│   ├── ProductController.php      # Gestión de productos
-
-│   ├── QuoteController.php        # Gestión de cotizaciones## ⚙️ Tecnologías Utilizadas├── .env.example      # Plantilla base para `.env`
-
-│   └── UserAdminController.php    # Administración de usuarios
-
-├── 📂 models/                     # Modelos de datos├── composer.json     # Dependencias del proyecto
-
-│   ├── Database.php               # Conexión a BD
-
-│   ├── ClientModel.php            # Modelo de clientes| Tecnología | Versión | Propósito |└── vendor/           # Librerías Composer (ignorado por Git)
-
-│   ├── ProductModel.php           # Modelo de productos
-
-│   ├── QuoteModel.php             # Modelo de cotizaciones|------------|---------|-----------|```
-
-│   └── UserModel.php              # Modelo de usuarios
-
-├── 📂 views/                      # Vistas del sistema| **PHP** | 7.4+ | Lenguaje backend principal |
-
-│   ├── auth/                      # Autenticación
-
-│   ├── clients/                   # Gestión de clientes| **Apache** | 2.4 | Servidor web |---
-
-│   ├── products/                  # Gestión de productos
-
-│   ├── quotes/                    # Gestión de cotizaciones| **MySQL/MariaDB** | 5.7+ | Base de datos relacional |
-
-│   └── components/                # Componentes reutilizables
-
-├── 📂 vendor/                     # Dependencias de Composer| **PDO** | - | Abstracción de base de datos |### 🛠 Requisitos
-
-├── composer.json                  # Configuración de dependencias
-
-├── index.php                      # Punto de entrada principal| **Bootstrap** | 5.x | Framework CSS responsive |
-
-└── README.md                      # Documentación
-
-```| **Libsodium** | - | Operaciones criptográficas seguras |* Ubuntu 24.04 LTS
-
-
-
----| **Composer** | - | Gestión de dependencias |* Apache 2.4 con SSL y `mod_rewrite`, `mod_security`
-
-
-
-## 🛠️ Requisitos del Sistema| **jQuery** | 3.x | Biblioteca JavaScript |* PHP 8.3 (`fpm`, `mysql`, `libsodium`)
-
-
-
-### **Requisitos Mínimos*** MariaDB
-
-- **PHP 8.0+** con extensiones:
-
-  - `php-mysql` (PDO MySQL)---* Composer
-
-  - `php-json` (manejo de JSON)
-
-  - `php-mbstring` (manejo de cadenas)
-
-- **Apache 2.4** con módulos:
-
-  - `mod_rewrite` (URL amigables)## 📁 Estructura del Proyecto---
-
-  - `mod_ssl` (HTTPS recomendado)
-
-- **MySQL 5.7+** o **MariaDB 10.2+**
-
-- **Composer** para gestión de dependencias
-
-```### 🚀 Instalación paso a paso
-
-### **Requisitos Recomendados**
-
-- **PHP 8.4+** para mejor rendimientophp-mvc-seguro/
-
-- **MariaDB 10.11+** para características avanzadas
-
-- **Apache con HTTPS** configurado├── 📂 assets/                    # Recursos estáticos1. **Clona el repositorio:**
-
-- **mod_security** para seguridad adicional
+├── 📂 assets/                    # Recursos estáticos- **Carga Rápida** - AJAX para operaciones sin recarga de página
 
 │   ├── css/
 
----
+│   │   └── bootstrap.min.css     # Framework CSS- **Configuración segura de sesiones** (HTTPOnly, Secure, SameSite)* **libsodium** (`libsodium-dev`) para cifrado moderno
 
-│   │   └── bootstrap.min.css     # Framework CSS```bash
+│   ├── img/                      # Imágenes del sistema
 
-## 🚀 Instalación y Configuración
-
-│   ├── img/git clone https://github.com/wpadillav/php-mvc-seguro.git
-
-### **1. Clonar el Repositorio**
-
-```bash│   │   └── favicon.ico           # Icono del sitiocd php-mvc-seguro
-
-git clone https://github.com/wpadillav/NuvemERP.git
-
-cd NuvemERP│   └── js/```
-
-```
+│   └── js/---
 
 │       ├── bootstrap.bundle.min.js # Bootstrap JavaScript
 
+│       └── jquery.min.js         # jQuery* **Composer** para gestión de dependencias
+
+├── 📂 config/                    # Configuraciones
+
+│   ├── database.php              # Configuración de BD## ⚙️ Tecnologías Utilizadas
+
+│   └── security.php              # Configuraciones de seguridad
+
+├── 📂 controllers/               # Controladores MVC### 👥 **Gestión Completa de Usuarios*** **Bootstrap 5** para la interfaz
+
+│   ├── AuthController.php        # Autenticación
+
+│   ├── ClientController.php      # Gestión de clientes| Tecnología | Versión | Propósito |
+
+│   ├── DashboardController.php   # Panel principal
+
+│   ├── ProductController.php     # Gestión de productos|------------|---------|-----------|- Sistema de **roles y permisos** granular (root, admin, admingrupo, operador)
+
+│   ├── QuoteController.php       # Gestión de cotizaciones
+
+│   ├── ProfileController.php     # Gestión de perfil| **PHP** | 8.4+ | Backend y lógica de negocio |
+
+│   ├── ToolsController.php       # Herramientas del sistema
+
+│   └── UserAdminController.php   # Administración de usuarios| **MariaDB** | 10.11+ | Base de datos relacional |- **Panel de administración** para gestión de usuarios (solo admin/root)---
+
+├── 📂 models/                    # Modelos de datos
+
+│   ├── Database.php              # Conexión a BD| **Apache** | 2.4 | Servidor web |
+
+│   ├── ClientModel.php           # Modelo de clientes
+
+│   ├── ProductModel.php          # Modelo de productos| **Bootstrap** | 5.x | Framework CSS responsive |- **Perfil de usuario** con cambio de contraseña personal
+
+│   ├── QuoteModel.php            # Modelo de cotizaciones
+
+│   ├── UserModel.php             # Modelo de usuarios| **jQuery** | 3.x | Biblioteca JavaScript para AJAX |
+
+│   └── EncryptionModel.php       # Modelo de cifrado
+
+├── 📂 views/                     # Vistas del sistema| **Font Awesome** | 6.x | Iconografía moderna |- **CRUD completo** (Crear, Leer, Actualizar, Eliminar usuarios)### 📁 Estructura del proyecto
+
+│   ├── auth/                     # Autenticación
+
+│   ├── clients/                  # Gestión de clientes| **Composer** | - | Gestión de dependencias |
+
+│   ├── products/                 # Gestión de productos
+
+│   ├── quotes/                   # Gestión de cotizaciones- **Validación exhaustiva** de datos de entrada
+
+│   ├── dashboard/                # Panel principal
+
+│   ├── profile/                  # Perfil de usuario---
+
+│   ├── tools/                    # Herramientas
+
+│   ├── useradmin/                # Administración de usuarios```
+
+│   └── components/               # Componentes reutilizables
+
+├── 📂 vendor/                    # Dependencias de Composer## 📁 Estructura del Proyecto
+
+├── composer.json                 # Configuración de dependencias
+
+├── index.php                     # Punto de entrada principal### 🏗️ **Arquitectura MVC**.
+
+└── README.md                     # Documentación del proyecto
+
+``````
+
+
+
+---NuvemERP/- **Separación clara** de responsabilidades├── assets/           # Estáticos (CSS, JS, imágenes)
+
+
+
+## 🛠️ Requisitos del Sistema├── 📂 assets/                     # Recursos estáticos
+
+
+
+### **Requisitos Mínimos**│   ├── css/- **Controladores** especializados por funcionalidad├── config/           # Archivos de configuración (.env, BD, seguridad)
+
+- **PHP 8.0+** con extensiones:
+
+  - `php-mysql` (PDO MySQL)│   │   └── bootstrap.min.css      # Framework CSS
+
+  - `php-json` (manejo de JSON)
+
+  - `php-mbstring` (manejo de cadenas)│   ├── img/                       # Imágenes del sistema- **Modelos** con abstracción de base de datos├── controllers/      # Controladores MVC
+
+- **Apache 2.4** con módulos:
+
+  - `mod_rewrite` (URL amigables)│   └── js/
+
+  - `mod_ssl` (HTTPS recomendado)
+
+- **MySQL 5.7+** o **MariaDB 10.2+**│       ├── bootstrap.bundle.min.js # Bootstrap JavaScript- **Vistas** modulares y reutilizables con Bootstrap├── models/           # Lógica de datos, cifrado y usuarios
+
+- **Composer** para gestión de dependencias
+
+│       └── jquery.min.js          # jQuery
+
+### **Requisitos Recomendados**
+
+- **PHP 8.4+** para mejor rendimiento├── 📂 config/                     # Configuraciones- **Enrutamiento** centralizado y seguro├── views/            # Vistas del sistema
+
+- **MariaDB 10.11+** para características avanzadas
+
+- **Apache con HTTPS** configurado│   ├── database.php               # Configuración de BD
+
+- **mod_security** para seguridad adicional
+
+│   └── security.php               # Configuraciones de seguridad├── components/       # Fragmentos reutilizables (navbar, etc.)
+
+---
+
+├── 📂 controllers/                # Controladores MVC
+
+## 🚀 Instalación y Configuración
+
+│   ├── AuthController.php         # Autenticación---├── index.php         # Punto de entrada (Front Controller)
+
+### **1. Clonar el Repositorio**
+
+```bash│   ├── ClientController.php       # Gestión de clientes
+
+git clone https://github.com/wpadillav/NuvemERP.git
+
+cd NuvemERP│   ├── DashboardController.php    # Panel principal├── .env              # Variables de entorno
+
+```
+
+│   ├── ProductController.php      # Gestión de productos
+
 ### **2. Instalar Dependencias**
 
-```bash│       └── jquery.min.js         # jQuery2. **Instala dependencias:**
+```bash│   ├── QuoteController.php        # Gestión de cotizaciones## ⚙️ Tecnologías Utilizadas├── .env.example      # Plantilla base para `.env`
 
 composer install
 
-```├── 📂 config/                    # Configuraciones del sistema
+```│   └── UserAdminController.php    # Administración de usuarios
 
 
 
-### **3. Configurar Base de Datos**│   ├── database.php              # Configuración de base de datos```bash
+### **3. Configurar Base de Datos**├── 📂 models/                     # Modelos de datos├── composer.json     # Dependencias del proyecto
 
 
 
-**Crear base de datos:**│   └── security.php              # Configuraciones de seguridadcomposer install
+**Crear base de datos:**│   ├── Database.php               # Conexión a BD
 
 ```sql
 
-CREATE DATABASE gestion_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;├── 📂 controllers/               # Controladores MVC```
+CREATE DATABASE gestion_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;│   ├── ClientModel.php            # Modelo de clientes| Tecnología | Versión | Propósito |└── vendor/           # Librerías Composer (ignorado por Git)
 
 USE gestion_db;
 
-```│   ├── AuthController.php        # Autenticación y sesiones
+```│   ├── ProductModel.php           # Modelo de productos
 
 
 
-**Importar estructura:**│   ├── DashboardController.php   # Panel principal3. **Copia el archivo `.env` de ejemplo y edítalo:**
+**Importar estructura:**│   ├── QuoteModel.php             # Modelo de cotizaciones|------------|---------|-----------|```
 
 ```bash
 
-mysql -u root -p gestion_db < backup_appdb.sql│   ├── ProfileController.php     # Gestión de perfil personal
+mysql -u root -p gestion_db < database/schema.sql│   └── UserModel.php              # Modelo de usuarios
 
 ```
 
-│   ├── ToolsController.php       # Herramientas del sistema```bash
+├── 📂 views/                      # Vistas del sistema| **PHP** | 7.4+ | Lenguaje backend principal |
 
 ### **4. Configurar Conexión**
 
-Editar `config/database.php` con tus credenciales:│   └── UserAdminController.php   # Administración de usuarioscp .env.example .env
+Editar `config/database.php` con tus credenciales:│   ├── auth/                      # Autenticación
 
 ```php
 
-private $host = 'localhost';├── 📂 models/                    # Modelos de datosnano .env
+private $host = 'localhost';│   ├── clients/                   # Gestión de clientes| **Apache** | 2.4 | Servidor web |---
 
 private $db_name = 'gestion_db';
 
-private $username = 'tu_usuario_mysql';│   ├── Database.php              # Clase de conexión a BD```
+private $username = 'tu_usuario_mysql';│   ├── products/                  # Gestión de productos
 
 private $password = 'tu_password_mysql';
 
-```│   ├── EncryptionModel.php       # Modelo de cifrado
+```│   ├── quotes/                    # Gestión de cotizaciones| **MySQL/MariaDB** | 5.7+ | Base de datos relacional |
 
 
 
-### **5. Configurar Apache**│   └── UserModel.php             # Gestión de usuarios y rolesRellena con tus datos de conexión y una clave segura:
+### **5. Configurar Apache**│   └── components/                # Componentes reutilizables
 
 ```apache
 
-<VirtualHost *:80>├── 📂 views/                     # Vistas y templates
+<VirtualHost *:80>├── 📂 vendor/                     # Dependencias de Composer| **PDO** | - | Abstracción de base de datos |### 🛠 Requisitos
 
     ServerName tu-dominio.com
 
-    DocumentRoot /var/www/html/NuvemERP│   ├── auth/```env
+    DocumentRoot /var/www/html/NuvemERP├── composer.json                  # Configuración de dependencias
 
     
 
-    <Directory /var/www/html/NuvemERP>│   │   └── login.php             # Formulario de loginAPP_SECRET_KEY=tu_clave_hexadecimal_segura
+    <Directory /var/www/html/NuvemERP>├── index.php                      # Punto de entrada principal| **Bootstrap** | 5.x | Framework CSS responsive |
 
         AllowOverride All
 
-        Require all granted│   ├── components/```
+        Require all granted└── README.md                      # Documentación
 
     </Directory>
 
-</VirtualHost>│   │   └── nav.php               # Barra de navegación
+</VirtualHost>```| **Libsodium** | - | Operaciones criptográficas seguras |* Ubuntu 24.04 LTS
 
 ```
 
-│   ├── dashboard/Genera una clave con:
+
 
 ### **6. Datos de Acceso Inicial**
 
-```│   │   └── index.php             # Dashboard principal
+```---| **Composer** | - | Gestión de dependencias |* Apache 2.4 con SSL y `mod_rewrite`, `mod_security`
 
 URL: http://tu-dominio.com
 
-Usuario: usuario│   ├── profile/```bash
+Usuario: admin
 
-Contraseña: password123
+Contraseña: admin123
 
-```│   │   ├── change_password.php   # Cambio de contraseña personalphp -r "echo bin2hex(random_bytes(32)) . PHP_EOL;"
-
-
-
----│   │   └── index.php             # Perfil de usuario```
+```## 🛠️ Requisitos del Sistema| **jQuery** | 3.x | Biblioteca JavaScript |* PHP 8.3 (`fpm`, `mysql`, `libsodium`)
 
 
 
-## 🎯 Módulos del Sistema│   ├── tools/
+---
 
 
 
-### **📊 Dashboard**│   │   └── index.php             # Herramientas del sistema4. **Crea la base de datos y tabla de usuarios:**
+## 🎯 Módulos del Sistema### **Requisitos Mínimos*** MariaDB
+
+
+
+### **📊 Dashboard**- **PHP 8.0+** con extensiones:
 
 - Resumen ejecutivo de la actividad empresarial
 
-- Estadísticas de clientes, productos y cotizaciones│   └── useradmin/
+- Estadísticas de clientes, productos y cotizaciones  - `php-mysql` (PDO MySQL)---* Composer
 
 - Accesos rápidos a funcionalidades principales
 
-│       ├── change_password.php   # Cambio de contraseña admin```sql
+  - `php-json` (manejo de JSON)
 
 ### **👥 Gestión de Clientes**
 
-- **Crear**: Formulario completo con validación│       ├── create.php            # Crear usuarioCREATE DATABASE app_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+- **Crear**: Formulario completo con validación  - `php-mbstring` (manejo de cadenas)
 
 - **Listar**: Vista tabular con búsqueda y filtros
 
-- **Editar**: Actualización de información existente│       ├── delete.php            # Eliminar usuario
+- **Editar**: Actualización de información existente- **Apache 2.4** con módulos:
 
 - **Eliminar**: Soft delete con confirmación
 
-│       ├── edit.php              # Editar usuarioUSE app_db;
+  - `mod_rewrite` (URL amigables)## 📁 Estructura del Proyecto---
 
 ### **📦 Gestión de Productos**
 
-- **Catálogo**: Lista completa con precios y SKU│       └── index.php             # Lista de usuarios
+- **Catálogo**: Lista completa con precios y SKU  - `mod_ssl` (HTTPS recomendado)
 
 - **Búsqueda AJAX**: Localización instantánea
+
+- **CRUD Completo**: Crear, editar y eliminar productos- **MySQL 5.7+** o **MariaDB 10.2+**
+
+- **Integración**: Conexión directa con cotizaciones
+
+- **Composer** para gestión de dependencias
+
+### **📋 Sistema de Cotizaciones**
+
+- **Creación Interactiva**: Agregar múltiples productos```### 🚀 Instalación paso a paso
+
+- **Cálculos Automáticos**: Subtotales, IVA opcional y totales
+
+- **Estados Simplificados**: Borrador → Enviada → Entregada### **Requisitos Recomendados**
+
+- **Numeración**: Sistema automático COT-YYYY-NNNN
+
+- **Edición**: Modificación completa hasta estado "Entregada"- **PHP 8.4+** para mejor rendimientophp-mvc-seguro/
+
+
+
+### **🔧 Características Especiales**- **MariaDB 10.11+** para características avanzadas
+
+- **IVA Opcional**: Checkbox para empresas no autorizadas
+
+- **Workflow Simplificado**: Solo 3 estados para mayor claridad- **Apache con HTTPS** configurado├── 📂 assets/                    # Recursos estáticos1. **Clona el repositorio:**
+
+- **Validación Robusta**: Control de permisos por estado
+
+- **Interfaz Intuitiva**: Navegación clara y feedback visual- **mod_security** para seguridad adicional
+
+
+
+---│   ├── css/
+
+
+
+## 🔐 Características de Seguridad---
+
+
+
+### **Autenticación Robusta**│   │   └── bootstrap.min.css     # Framework CSS```bash
+
+- Sistema de login con validación server-side
+
+- Protección contra ataques de fuerza bruta## 🚀 Instalación y Configuración
+
+- Regeneración de ID de sesión tras login exitoso
+
+- Logout seguro con limpieza de sesión│   ├── img/git clone https://github.com/wpadillav/php-mvc-seguro.git
+
+
+
+### **Protección de Datos**### **1. Clonar el Repositorio**
+
+- Prepared statements para prevenir SQL Injection
+
+- Sanitización de entrada con `filter_var()````bash│   │   └── favicon.ico           # Icono del sitiocd php-mvc-seguro
+
+- Escapado de salida con `htmlspecialchars()`
+
+- Validación exhaustiva en todos los formulariosgit clone https://github.com/wpadillav/NuvemERP.git
+
+
+
+### **Configuración Segura**cd NuvemERP│   └── js/```
+
+- Cookies con flags `HttpOnly`, `Secure`, `SameSite`
+
+- Headers de seguridad configurados```
+
+- Timeouts de sesión apropiados
+
+- Logging de eventos críticos│       ├── bootstrap.bundle.min.js # Bootstrap JavaScript
+
+
+
+---### **2. Instalar Dependencias**
+
+
+
+## 🎨 Personalización```bash│       └── jquery.min.js         # jQuery2. **Instala dependencias:**
+
+
+
+### **Configurar Logo y Branding**composer install
+
+```php
+
+// En views/components/nav.php```├── 📂 config/                    # Configuraciones del sistema
+
+<a class="navbar-brand" href="/?action=dashboard">
+
+    <i class="fas fa-cloud"></i> Tu Empresa
+
+</a>
+
+```### **3. Configurar Base de Datos**│   ├── database.php              # Configuración de base de datos```bash
+
+
+
+### **Modificar Configuración de IVA**
+
+```php
+
+// En controllers (productos y cotizaciones)**Crear base de datos:**│   └── security.php              # Configuraciones de seguridadcomposer install
+
+$taxRate = 19; // Cambiar por tu tasa de impuestos
+
+``````sql
+
+
+
+### **Personalizar Colores**CREATE DATABASE gestion_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;├── 📂 controllers/               # Controladores MVC```
+
+```css
+
+/* En assets/css/custom.css */USE gestion_db;
+
+:root {
+
+    --primary-color: #007bff;```│   ├── AuthController.php        # Autenticación y sesiones
+
+    --secondary-color: #6c757d;
+
+    --success-color: #28a745;
+
+}
+
+```**Importar estructura:**│   ├── DashboardController.php   # Panel principal3. **Copia el archivo `.env` de ejemplo y edítalo:**
+
+
+
+---```bash
+
+
+
+## 🚦 Estado del Proyectomysql -u root -p gestion_db < backup_appdb.sql│   ├── ProfileController.php     # Gestión de perfil personal
+
+
+
+- ✅ **Autenticación de usuarios**```
+
+- ✅ **Gestión completa de clientes**
+
+- ✅ **Catálogo de productos**│   ├── ToolsController.php       # Herramientas del sistema```bash
+
+- ✅ **Sistema de cotizaciones con IVA opcional**
+
+- ✅ **Workflow simplificado (3 estados)**### **4. Configurar Conexión**
+
+- ✅ **Cálculos automáticos**
+
+- ✅ **Búsqueda AJAX**Editar `config/database.php` con tus credenciales:│   └── UserAdminController.php   # Administración de usuarioscp .env.example .env
+
+- ✅ **Interfaz responsive**
+
+- 🔄 **Reportes y estadísticas** (En desarrollo)```php
+
+- 🔄 **Sistema de facturación** (Próximamente)
+
+- 🔄 **API REST** (Próximamente)private $host = 'localhost';├── 📂 models/                    # Modelos de datosnano .env
+
+
+
+---private $db_name = 'gestion_db';
+
+
+
+## 🤝 Contribucionesprivate $username = 'tu_usuario_mysql';│   ├── Database.php              # Clase de conexión a BD```
+
+
+
+¡Las contribuciones son bienvenidas! Por favor:private $password = 'tu_password_mysql';
+
+
+
+1. Fork el proyecto```│   ├── EncryptionModel.php       # Modelo de cifrado
+
+2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
+
+3. Commit tus cambios (`git commit -am 'Agregar nueva funcionalidad'`)
+
+4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
+
+5. Crea un Pull Request### **5. Configurar Apache**│   └── UserModel.php             # Gestión de usuarios y rolesRellena con tus datos de conexión y una clave segura:
+
+
+
+---```apache
+
+
+
+## 📞 Soporte<VirtualHost *:80>├── 📂 views/                     # Vistas y templates
+
+
+
+### **¿Encontraste un bug?**    ServerName tu-dominio.com
+
+- Reporta issues en: [GitHub Issues](https://github.com/wpadillav/NuvemERP/issues)
+
+- Incluye detalles del error y pasos para reproducir    DocumentRoot /var/www/html/NuvemERP│   ├── auth/```env
+
+
+
+### **¿Necesitas ayuda?**    
+
+- Revisa la documentación completa
+
+- Consulta los ejemplos de uso    <Directory /var/www/html/NuvemERP>│   │   └── login.php             # Formulario de loginAPP_SECRET_KEY=tu_clave_hexadecimal_segura
+
+- Contacta al desarrollador
+
+        AllowOverride All
+
+---
+
+        Require all granted│   ├── components/```
+
+## 👤 Autor
+
+    </Directory>
+
+- **William Padilla** ([@wpadillav](https://github.com/wpadillav))
+
+- **Email**: willipadilla@proton.me</VirtualHost>│   │   └── nav.php               # Barra de navegación
+
+- **GitHub**: [github.com/wpadillav](https://github.com/wpadillav)
+
+```
+
+---
+
+│   ├── dashboard/Genera una clave con:
+
+## ⚖️ Licencia
+
+### **6. Datos de Acceso Inicial**
+
+Este proyecto está bajo la **Licencia MIT**. Ver el archivo [LICENSE](LICENSE) para más detalles.
+
+```│   │   └── index.php             # Dashboard principal
+
+MIT License
+
+URL: http://tu-dominio.com
+
+Copyright (c) 2025 William Padilla
+
+Usuario: usuario│   ├── profile/```bash
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+
+of this software and associated documentation files (the "Software"), to dealContraseña: password123
+
+in the Software without restriction, including without limitation the rights
+
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell```│   │   ├── change_password.php   # Cambio de contraseña personalphp -r "echo bin2hex(random_bytes(32)) . PHP_EOL;"
+
+copies of the Software, and to permit persons to whom the Software is
+
+furnished to do so, subject to the following conditions:
+
+
+
+The above copyright notice and this permission notice shall be included in all---│   │   └── index.php             # Perfil de usuario```
+
+copies or substantial portions of the Software.
+
+
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,## 🎯 Módulos del Sistema│   ├── tools/
+
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+
+
+---
+
+### **📊 Dashboard**│   │   └── index.php             # Herramientas del sistema4. **Crea la base de datos y tabla de usuarios:**
+
+## 🌟 Agradecimientos
+
+- Resumen ejecutivo de la actividad empresarial
+
+- **Bootstrap Team** por el framework CSS
+
+- **Font Awesome** por los iconos- Estadísticas de clientes, productos y cotizaciones│   └── useradmin/
+
+- **jQuery Team** por la biblioteca JavaScript
+
+- **Comunidad PHP** por las mejores prácticas- Accesos rápidos a funcionalidades principales
+
+- **MariaDB Foundation** por el sistema de base de datos
+
+│       ├── change_password.php   # Cambio de contraseña admin```sql
+
+---
+
+### **👥 Gestión de Clientes**
+
+**Desarrollado con ❤️ para simplificar la gestión empresarial**
+
+- **Crear**: Formulario completo con validación│       ├── create.php            # Crear usuarioCREATE DATABASE app_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+*NuvemERP - Tu ERP en la nube desde 2025*
+
+- **Listar**: Vista tabular con búsqueda y filtros
+
+---
+
+- **Editar**: Actualización de información existente│       ├── delete.php            # Eliminar usuario
+
+## 📊 Estadísticas del Proyecto
+
+- **Eliminar**: Soft delete con confirmación
+
+- **Líneas de código**: ~4,000+
+
+- **Archivos PHP**: 20+│       ├── edit.php              # Editar usuarioUSE app_db;
+
+- **Módulos**: 4 principales (Clientes, Productos, Cotizaciones, Usuarios)
+
+- **Tablas de BD**: 8+### **📦 Gestión de Productos**
+
+- **Funcionalidades**: 25+
+
+- **Compatibilidad**: PHP 8.0+- **Catálogo**: Lista completa con precios y SKU│       └── index.php             # Lista de usuarios
+
+- **Arquitectura**: MVC puro
+
+- **Licencia**: MIT- **Búsqueda AJAX**: Localización instantánea
 
 - **CRUD Completo**: Crear, editar y eliminar productos├── 📂 vendor/                    # Dependencias de ComposerCREATE TABLE users (
 
